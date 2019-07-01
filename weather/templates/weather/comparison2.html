@@ -28,48 +28,43 @@
   .my-container{
   }
   .my-row{
-    height : 650px;
-    margin-top: 30px;
+    height : 350px;
     border : 2px solid black;
 
   }
   .my-col{
     border : 2px solid black;
-    height : 650px;
+    height : 350px
+    border :1px
   }
   p {
   font-size: 40px;
   }
 
-  .my-button{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
   .my-class{
     padding : 30px;
+  }
+  .back{
+    padding-left : 20px;
+    padding-top : 10px
   }
   a {
     text-decoration: none;
     color: black;
 }
 
-
 </style>
 
 <body class="bg-light">
-
-
-  <div class="my-button">
-  <a href="./comparison2.html" class="btn btn-dark btn-lg"> <i class="fas fa-plus"></i><span class="ml-2">Add More Location</span></a>
+  <div class="back">
+  <a href="./index.html"><i class="fas fa-angle-left m-auto text-dark fa-3x"></i></a>
   </div>
-
   <!-- Icons Grid -->
   <div class="my-class bg-light text-center">
     <div class="container my-container">
       <div class="row my-row">
-        <div class="col-6 my-col">
-          <br><br><br>
+        <div class="col-6 my-col bg-secondary">
+          <br><br>
             <div class="features-icons-icon mx-auto d-flex">
               <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
               <i class="fas fa-sun m-auto text-warning fa-5x"></i>
@@ -77,13 +72,11 @@
             <br>
             <br>
             <h1 class ="font-weight-bold">73 &#8451;</h1>
-            <a href="./index.html"><h3>Berkeley</h3></a><br><br>
-            <p> <i class="fas fa-wind fa-1x"></i><span class="ml-3">78</span></p><br>
-            <p> <i class="fas fa-cloud-rain fa-1x"></i><span class="ml-3">84%</span></p>
+            <a href="./index.html"><h3>Berkeley</h3></a>
 
         </div>
         <div class="col-6 my-col">
-          <br><br><br>
+          <br><br>
             <div class="features-icons-icon mx-auto d-flex">
               <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
               <i class="fas fa-cloud m-auto text-info fa-5x"></i>
@@ -91,9 +84,28 @@
             <br>
             <br>
             <h1 class ="font-weight-bold">45 &#8451;</h1>
-            <a href="./newyork.html"><h3>New York</h3> </a><br><br>
-            <p> <i class="fas fa-wind fa-1x"></i><span class="ml-3">25</span></p><br>
-            <p> <i class="fas fa-cloud-rain fa-1x"></i><span class="ml-3">100%</span></p>
+            <a href="./newyork.html"><h3>New York</h3> </a>
+        </div>
+      </div>
+      <div class="row my-row">
+        <div class="col-6 my-col">
+          <br><br>
+            <div class="features-icons-icon mx-auto d-flex">
+              <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
+              <i class="fas fa-cloud-showers-heavy m-auto text-info fa-5x"></i>
+            </div>
+            <br>
+            <br>
+            <h1 class ="font-weight-bold">73 &#8451;</h1>
+            <h3>Los Angeles</h3><br><br>
+
+        </div>
+        <div class="col-6 my-col">
+          <br><br><br><br><br>
+            <div class="features-icons-icon mx-auto d-flex">
+              <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
+              <i class="fas fa-plus-circle m-auto text-dark fa-5x"></i>
+            </div>
         </div>
       </div>
       </div>
